@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        min-height: 735px;
+        background-image: url(img/header_mobile.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        border: 1px solid #000;
+        &__box {
+            align-items: center;
+        }
+
+        &__title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+
+            &_big {
+                font-weight: 700;
+                line-height: 22px;
+            }
+        }
+
+    }
+}
