@@ -11,6 +11,7 @@ alert(iphoneRelease);
 //Exercise 3
 let nameJs = "Brendan Eich";
 alert(nameJs);
+console.log(alert)
 
 //Exercise 4
 let x = 10;
@@ -60,12 +61,16 @@ user.age = 21;
 delete user["city of residence"];
 
 //Exercise 9.4
-let info = prompt("Какую информацию хотите узнать о пользователе?", "name" , "age" , "isAdmin")
-alert = (user[info])
-console.log(alert)
+let info = prompt(
+  "Какую информацию хотите узнать о пользователе?",
+  "name",
+  "age",
+  "isAdmin"
+);
+alert = user[info];
+console.log(alert);
 
 //Exercise 10
-let userName = prompt('Как к вам обращаться?')
-alert = (`Привет, ${userName}!`)
-console.log(alert)
-
+let userName = prompt("Как к вам обращаться?");
+alert = `Привет, ${userName}!`;
+console.log(alert);
