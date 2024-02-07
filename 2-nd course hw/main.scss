@@ -110,7 +110,9 @@ select {
 }
 
 .games {
-    background: #000915;
+    background-image: url(img/mobile2.png);
+    background-repeat: repeat;
+    background-size: cover;
 
     &__title {
         display: none;
