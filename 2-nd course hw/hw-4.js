@@ -37,6 +37,7 @@ for (let key in obj) {
 
 let n = 1000;
 let nam = 0;
+
 while (n >= 50) {
   n /= 2;
   nam++;

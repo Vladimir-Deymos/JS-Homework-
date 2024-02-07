@@ -11,7 +11,7 @@ alert(iphoneRelease);
 //Exercise 3
 let nameJs = "Brendan Eich";
 alert(nameJs);
-console.log(alert)
+console.log(alert);
 
 //Exercise 4
 let x = 10;
@@ -42,7 +42,8 @@ alert(num);
 
 //Exercise 8
 let age = Number(prompt("Сколько вам лет?"));
-alert(age);
+isNaN (age);
+console.log(age);
 
 //Exercise 9
 const user = {
