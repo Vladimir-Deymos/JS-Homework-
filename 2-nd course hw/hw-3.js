@@ -61,7 +61,7 @@ switch (monthNumber) {
   default:
     console.log("Такого месяца нет");
 }
-
+// 
 //Exercise 7
 
 let number = parseInt(prompt("Пожалуйста, введите любое число"));
