@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77323403-60f9-41c0-8121-8ec12e35d9b5" name="Changes" comment="new files hw-2.js and js.html.connected js-2 script  (Homework 2)">
+          <change beforePath="$PROJECT_DIR$/_mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework1/index.html" beforeDir="false" /><list default="true" id="77323403-60f9-41c0-8121-8ec12e35d9b5" name="Changes" comment="new files hw-2.js and js.html.connected js-2 script  (Homework 2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
