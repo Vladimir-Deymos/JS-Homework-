@@ -1,3 +1,15 @@
+@keyframes myAnim {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -37,8 +49,7 @@ select {
 }
 
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-inline: max(50% - 600px, 16px);
 }
 
 .header {
@@ -87,10 +98,21 @@ select {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
+    cursor: pointer;
+    transition: all, color 1s;
+
+    &:hover {
+        background-color: blue;
+        color: #888;
+        text-decoration-line: none;
+        animation: myAnim 2s ease 0s 1 normal forwards;
+    }
 }
 
 .games {
-    background: #000915;
+    background-image: url(img/header-next.png);
+    background-repeat: repeat;
+    background-size: cover;
 
     &__title {
         display: none;
@@ -104,10 +126,12 @@ select {
 .game-box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 32px;
 
     &__product {
         position: relative;
+
     }
 
     &__name {
@@ -118,8 +142,13 @@ select {
         font-size: 24px;
         font-weight: 600;
         line-height: 32px;
+        transition: all 1s;
+
+        &:hover {
+            transform: translate(20px) scale(1.1);
+        }
     }
 }
 
-
+// 
 @import 'mobile';
