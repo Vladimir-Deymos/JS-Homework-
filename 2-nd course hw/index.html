@@ -20,14 +20,18 @@
             <p class="header__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
                     class="header__text_big">поехали</span> и <span class="header__text_big">приступай.</span>
             </p>
-            <form class="go-game" action="#">
-                <button class="go-game__button" type="submit">Поехали!</button>
-            </form>
+            <p><a href="#start">
+                <form class="go-game" action="#">
+                    <button class="go-game__button" type="submit">Поехали!</button>
+                </form>
+            </a></p>
+
         </div>
     </header>
     <section class="games center">
         <h2 class="games__title"></h2>
         <ul class="game-box">
+            <p><a name="start"></a></p>
             <li class="game-box__product">
                 <a href="#">
                     <img src="img/game1.png" alt="Игра 1">
@@ -48,7 +52,23 @@
             </li>
         </ul>
     </section>
-
+    <section class="gameone center">
+        <div class="gameone__box">
+            <img src="img/gameone.png" alt="Game1">
+            <div class="box-gameone">
+                <h2 class="box-gameone__title">
+                    Времена года!
+                </h2>
+                <p class="box-gameone__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+                    какому времени года он относится
+                </p>
+                <form class="go-gameone" action="#">
+                    <button onclick="season();" class="go-gameone__button" type="submit" id="game_season">Играть!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="hw-5.js"> </script>
 </body>
-<!--  -->
+
 </html>
