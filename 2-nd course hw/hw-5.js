@@ -8,7 +8,7 @@ console.log(result);
 
 //Exercise 2
 function findTheNumber(num) {
-  if (num % 2 == 0) {
+  if (num % 2 === 0) {
     return "Число четное";
   } else {
     return "Число нечетное";
@@ -40,11 +40,17 @@ function age() {
     console.log("Привет, друг!");
   } else if (answer > 13) {
     console.log("Добро пожаловать!");
+  } else if (isNaN(answer)) {
+    console.log("Пожалуйста, вводите только числа");
+  } else if (answer === "" || answer.trim() === "") {
+    console.log("Пустая строка");
+  } else if (answer) {
+    console.log("Вы отменили ввод");
   } else {
     console.log("Вы ввели неправильное значение");
   }
 }
-console.log(age());
+age();
 
 //Exercise 5
 
@@ -75,11 +81,11 @@ degree();
 //Exercise 7
 
 function getCircleArea() {
-  return this.radius ** 2 * 3.14;
+  return this.radius ** 2 * Math.PI;
 }
 
 function getCirclePerimeter() {
-  return this.radius * 3.14;
+  return this.radius * Math.PI;
 }
 
 let circle1 = {
