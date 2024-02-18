@@ -36,16 +36,16 @@ console.log(degree(3));
 function age() {
   let answer = prompt("Сколько Вам лет?");
 
-  if (answer > 0 && answer < 12) {
-    console.log("Привет, друг!");
-  } else if (answer > 13) {
-    console.log("Добро пожаловать!");
-  } else if (isNaN(answer)) {
+  if (isNaN(answer)) {
     console.log("Пожалуйста, вводите только числа");
   } else if (answer === "" || answer.trim() === "") {
     console.log("Пустая строка");
-  } else if (answer) {
+  } else if (answer === null) {
     console.log("Вы отменили ввод");
+  } else if (answer > 0 && answer < 12) {
+    console.log("Привет, друг!");
+  } else if (answer >= 13) {
+    console.log("Добро пожаловать!");
   } else {
     console.log("Вы ввели неправильное значение");
   }
