@@ -85,7 +85,7 @@ function getCircleArea() {
 }
 
 function getCirclePerimeter() {
-  return this.radius * Math.PI;
+  return 2 * this.radius * Math.PI;
 }
 
 let circle1 = {
