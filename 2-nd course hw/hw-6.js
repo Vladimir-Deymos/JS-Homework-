@@ -45,9 +45,9 @@ console.log(arr);
 
 let orderNum = [9, 8, 7, "a", 6, 5];
 
-let order = orderNum.sort();
-console.log(order.pop());
-console.log(order);
+orderNum.sort();
+orderNum.pop();
+console.log(orderNum);
 
 //Exercise 7
 
@@ -57,6 +57,8 @@ player = Number(player);
 
 if (isNaN(player)) {
   alert("формат неправильный");
+} else if (!player) {
+  alert("Ты не хочешь угадывать?");
 } else if (h.includes(player)) {
   alert("Угадал");
 } else {
@@ -89,7 +91,7 @@ console.log(flatArr);
 
 //Exercise 10
 
-let arbit = [4, 7, 1, 2, 3, 5, 9, 10, 8, 6];
+let randomNum = [4, 7, 1, 2, 3, 5, 9, 10, 8, 6];
 
 for (let i = 0; i < arbit.length - 1; i++) {
   console.log(arbit[i] + arbit[i + 1]);
@@ -97,19 +99,19 @@ for (let i = 0; i < arbit.length - 1; i++) {
 
 //Exercise 11
 
-function square(arr) {
+function squareNum(arr) {
   return arr.map((num) => num ** 2);
 }
 
 //Exercise 12
-function square(array) {
+function lengthWord(array) {
   return array.map((el) => el.length);
 }
 
 //Exercise 13
 
 function filterPositive(array) {
-  return array.filter(value => value < 0);
+  return array.filter((value) => value < 0);
 }
 
 filterPositive([-1, 0, 5, -10, 56]);
