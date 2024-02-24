@@ -53,13 +53,12 @@ console.log(orderNum);
 
 let h = [9, 8, 7, 6, 5];
 let player = prompt("Угадай какое число");
-player = Number(player);
 
 if (isNaN(player)) {
   alert("формат неправильный");
-} else if (!player) {
+} else if (!player || player.trim() == "") {
   alert("Ты не хочешь угадывать?");
-} else if (h.includes(player)) {
+} else if (h.includes(Number(player))) {
   alert("Угадал");
 } else {
   alert("Не угадал");
