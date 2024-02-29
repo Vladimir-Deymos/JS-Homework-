@@ -63,4 +63,33 @@
             line-height: 157%;
         }
     }
+    .gametwo {
+        padding-top: 51px;
+        padding-bottom: 85px;
+
+        &__box {
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            gap: 64px;
+        }
+    }
+
+
+    .box-gametwo {
+        display: flex;
+        align-items: center;
+
+        &__title {
+
+            font-size: 32px;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 157%;
+        }
+    }
+
 }
