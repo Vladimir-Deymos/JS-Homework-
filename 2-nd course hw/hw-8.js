@@ -6,13 +6,9 @@ const people = [
   { name: "Оксана", age: 47 },
 ];
 people.sort(function (a, b) {
-  if (a.age > b.age) {
-    return 1;
-  }
-  if (a.age < b.age) {
-    return -1;
-  }
-  return 0;
+  
+  return a.age - b.age;
+
 });
 
 console.log(people);
@@ -68,7 +64,7 @@ timer();
 //Exercise 4
 
 function delayForSecond(callback) {
-  setTimeout(callback);
+  setTimeout(callback, 1000);
 }
 
 delayForSecond(function () {
